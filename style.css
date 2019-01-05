@@ -6,11 +6,12 @@ body {
 }
 .background-image {
     height:100vh;
-    background:url("img/game-of-thrones.jpg");
+    background:url("img/ice.jpg");
     background-repeat:no-repeat;
     background-size:contain;
     overflow: hidden;
-    filter:blur(10px)
+    filter: grayscale(0.4) blur(3px);
+
 
 }
 
@@ -55,7 +56,7 @@ h1{
     background: url('img/gotkhaleesi.jpg');
     background-size: 100% 100%;
     border-radius: 15px;
-    box-shadow: 10px 10px 10px rgba(0,0,0,.6);
+    box-shadow: 5px 10px 10px rgba(0,0,0,.6);
     transform: translate(-50%,-50%);
   
   }
