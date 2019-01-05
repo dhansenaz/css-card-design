@@ -58,20 +58,18 @@ h1{
     border-radius: 15px;
     box-shadow: 5px 10px 10px rgba(0,0,0,.6);
     transform: translate(-50%,-50%);
+    transition: all 1000ms ease-in-out;
+    
   
   }
-  .box:hover
+  .box:hover 
 {
     z-index: 2;
-    -webkit-transition: all 500ms ease-in;
-    -webkit-transform: scale(1.5);
-    -ms-transition: all 500ms ease-in;
-    -ms-transform: scale(1.5);   
-    -moz-transition: all 500ms ease-in;
-    -moz-transform: scale(1.5);
-    transition: all 500ms ease-in;
+    transition: all 1000ms ease-in-out;
     transform: scale(1.25);
+  
 }
+
   
   a{
     color: #07020d;
@@ -87,3 +85,14 @@ h1{
   .box:hover{
      /* transform: translate(-50%,-50%) rotate(0deg) skew(0deg); */
   }
+  @keyframes scaleIn {
+    from {
+      transform: scale(0.5, 0.5);
+      opacity: 0.2;
+    }
+    to {
+      transform: scale(3.5, 3.5);
+      opacity: 0;
+    }
+  }
+  
