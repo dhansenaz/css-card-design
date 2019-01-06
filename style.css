@@ -10,7 +10,7 @@ body {
     background-repeat:no-repeat;
     background-size:contain;
     overflow: hidden;
-    filter: grayscale(0.4) blur(3px);
+    filter: grayscale(0.4) blur(0px);
 
 
 }
@@ -64,10 +64,9 @@ h1{
   .box1:hover 
 {
     z-index: 2;
-    transition: all 1000ms ease-in-out;
+    transition: all ms ease-in-out;
     transform: scale(1.5);
-    
-  
+
 }
 .box2:hover 
 {
@@ -76,7 +75,6 @@ h1{
     transform: scale(1.5);
     margin-left:-100px;
     
-  
 }
 .box3:hover 
 {
@@ -85,7 +83,7 @@ h1{
     transform: scale(1.5);
     margin-left:-200px;
     
-  
+
 }
 
 
