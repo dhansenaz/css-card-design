@@ -65,14 +65,14 @@ h1{
 {
     z-index: 2;
     transition: all ms ease-in-out;
-    transform: scale(1.5);
+    transform: scale(1.2);
 
 }
 .box2:hover 
 {
     z-index: 2;
     transition: all 1000ms ease-in-out;
-    transform: scale(1.5);
+    transform: scale(1.2);
     margin-left:-100px;
     
 }
@@ -80,7 +80,7 @@ h1{
 {
     z-index: 2;
     transition: all 1000ms ease-in-out;
-    transform: scale(1.5);
+    transform: scale(1.2);
     margin-left:-200px;
     
 
